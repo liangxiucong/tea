@@ -24,10 +24,12 @@
 </script>
 <style scoped>
 	.bottom{
-		width:1200px;
     	height:390px;
-    	background-color:yellow;
-    	 margin: 0 auto;
+    	margin: 0 auto;
+    	width: 100%;
+	}
+	.bottom img{
+		width: 100%;
 	}
 	.bottom .gray{
 		width: 588px;

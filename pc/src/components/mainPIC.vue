@@ -105,51 +105,40 @@
 	    bottom: 60px;
 	    left: 260px;
 	}
-	.xuanchuan .left2 .p1{
+	.xuanchuan .left2 .p1,.p2{
 		width: 35px;
 		height: 35px;
 		position: absolute;
-		top: 70px;
 		left: 211px;
+	}
+	.xuanchuan .left2 .p1{
+		top: 70px;
 	}
 	.xuanchuan .left2 .p2{
-		width: 35px;
-		height: 35px;
-		position: absolute;
 		top: 110px;
+	}
+	.xuanchuan .right .pp1,.pp2,.pp3{
+		position: absolute;
 		left: 211px;
+		color: #fff;
+		font-weight: 900;
+		padding-left: 50px;
 	}
 	.xuanchuan .right .pp1{
-		position: absolute;
 		top:20px;
-		left: 211px;
 		font-size: 20px;
-		color: #fff;
-		font-weight: 900;
-		padding-left: 50px;
 	}
 	.xuanchuan .right .pp2{
-		position: absolute;
 		top:70px;
-		left: 211px;
 		font-size: 27px;
-		color: #fff;
-		font-weight: 900;
-		padding-left: 50px;
 	}
 	.xuanchuan .right .pp3{
-		position: absolute;
 		top:110px;
-		left: 211px;
 		font-size: 27px;
-		color: #fff;
-		font-weight: 900;
-		padding-left: 50px;
 	}
 	.word .w1{
 		font-size: 40px;
 		text-align: center;
-		/*padding-top: 158px;*/
 		color: black;
 		letter-spacing: 50px;
 	}
@@ -159,35 +148,23 @@
         color: #80808085;
         padding-bottom: 40px;
 	}
-	.pic{
-		height: 523px;
-	}
 	.pic .right img{
 		width: 100%;
 		padding-top: 4px;
-		padding-right: 5px;
+		padding-left: 8px;
 	}
-	.kong{
-		height: 171px;
+	.kong,.kong2,.kong3{
+		height: 100px;
 		background-color: #fff;
 	}
-	.pic2{
-		height: 525px;
-	}
-	.kong2{
-		height: 105px;
-		background-color: #fff;
-	}
-	.pic3{
-		height: 368px;
-	} 
 	.pic3 .left img{
 		width: 100%;
-		height: 365px;
-		padding-right: 10px;
+		height: 395px;
+    	width: 600px;
+    	padding-right: 10px;
 	}
-	.kong3{
-		height: 67px;
-		background-color: #fff;
+	.pic3 .right img{
+		padding-left: 4px;
+    	width: 598px;
 	}
 </style>
